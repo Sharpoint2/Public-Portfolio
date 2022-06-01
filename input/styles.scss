@@ -1,0 +1,112 @@
+@import "mixins.scss";
+@import "variables.scss";
+@import "methods.scss";
+@import "queries.scss";
+
+.sidenav {
+    display: none;
+    height: 100%; 
+    width: 160px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color: rgb(166, 230, 230); 
+    overflow-x: hidden; 
+    font-family: 'Lato', sans-serif;
+    
+
+  
+  }
+
+  .links
+  {     
+      margin-top: 10px;
+      text-align: center;
+      border-bottom: solid rgb(39, 187, 187) 1.5px;
+    a
+    {
+        padding: 6px 8px 6px 8px;
+        text-decoration: none;
+        font-size: 16px;
+        color: #0a0229;
+        display: block;
+    }
+  }
+
+  .logo
+  {
+      
+      color:rgb(39, 187, 187);
+      font-weight: bolder;
+      text-align: center;
+      font-size: 2rem;
+      border-bottom: solid rgb(39, 187, 187) 3px;
+    
+
+  }
+
+  .contact
+  {
+      margin:0;
+  }
+
+  .hero
+  {
+      
+      
+    position: relative;
+      background-image: url("../img/pexels-photo-1103970\ \(1\).webp");
+      background-repeat: repeat-x;
+      width: 100%;
+      height: auto;
+      padding-top:45%;
+      h1
+      {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: 'Lato', sans-serif;
+        
+      }
+
+  }
+
+  .form
+  {
+
+  }
+
+  .projects
+  {     
+      margin-top: 20px;
+      
+      display:flex;
+      flex-wrap:wrap;
+      justify-content: center;
+      
+
+  }
+
+  .cards
+  {
+      border:solid 1px black;
+      text-align: center;
+      width: 33%;
+      height: 33%;
+      margin: 0 5px 10px 5px;
+      img
+      {
+       
+        height: 100%; 
+        width: 100%; 
+        object-fit: contain
+      }
+  }
+
+  .top
+  {
+      
+  }
