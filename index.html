@@ -5,6 +5,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
         <link rel="stylesheet" href="output/styles.css">
         <title>Portfolio Home</title>
 
@@ -59,7 +60,36 @@
 
             </div>
 
+
+            <form class = "contact">
+                <div class="row row-margin">
+                  <div class="col ">
+                    <input type="text" class="form-name form-control" placeholder="First name" id="first-name">
+                    <label for="first-name">First Name</label>
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-name form-control" placeholder="Last name" id="last-name">
+                    <label for="last-name">Last Name</label>
+                  </div>
+                </div>
+                <div class = "row row-margin"> 
+                    <input type="email" class="form-contact form-control" placeholder="Email Address" id="email">
+                    <label for="email">Email</label>
+                </div>
+
+                <div class = "row row-margin"> 
+                    <input type="text" class="form-contact form-control" placeholder="Subject" id="subject">
+                    <label for="subject">Subject</label>
+                </div>
+
+                <div class = "row row-margin"> 
+                    <input type="text" class="form-contact form-control" placeholder="Message" id="message">
+                    <label for="message">Message</label>
+                </div>
+                <input type="submit" class = "submit" value = "Submit"> 
+              </form>
         </main>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
     </body>
 

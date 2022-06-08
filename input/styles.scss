@@ -67,6 +67,7 @@
         top: 50%;
         width: 100%;
         text-align: center;
+        font-weight: bold;
         font-size: 2.5rem;
         font-family: 'Lato', sans-serif;
         
@@ -77,6 +78,29 @@
   .form
   {
 
+  }
+
+  .form-name
+  {
+    background-color: #c9c0ee;
+    
+    width: 35%;
+  }
+
+  .form-contact
+  {
+    background-color: #c9c0ee;
+    margin:10px;
+    width:80%;
+  }
+
+  .row-margin
+  {
+    margin:10px;
+  }
+  .contact
+  {
+    justify-content: left;
   }
 
   .projects
@@ -102,11 +126,22 @@
        
         height: 100%; 
         width: 100%; 
-        object-fit: contain
+        object-fit: contain;
       }
   }
 
   .top
   {
       
+  }
+
+  .page-header
+  {
+    
+    margin: 10px 0px 0px 25px;
+    text-align: left;
+    font-size: 2.5rem;
+    font-family: 'Lato', sans-serif;
+
+    
   }
