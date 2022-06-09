@@ -1,3 +1,10 @@
+@media (min-width: 992px) {
+  /* line 12, ../Scion Projects/Portfolio/input/queries.scss */
+  .sidenav {
+    display: block;
+  }
+}
+
 /* line 6, ../Scion Projects/Portfolio/input/styles.scss */
 .sidenav {
   display: none;
@@ -12,14 +19,23 @@
   font-family: 'Lato', sans-serif;
 }
 
-/* line 22, ../Scion Projects/Portfolio/input/styles.scss */
+/* line 20, ../Scion Projects/Portfolio/input/styles.scss */
+.submit {
+  background-color: #c9c0ee;
+  margin: 0 0 20px 30%;
+  width: 20%;
+  height: 50px;
+  font-weight: bold;
+}
+
+/* line 30, ../Scion Projects/Portfolio/input/styles.scss */
 .links {
   margin-top: 10px;
   text-align: center;
   border-bottom: solid #27bbbb 1.5px;
 }
 
-/* line 27, ../Scion Projects/Portfolio/input/styles.scss */
+/* line 35, ../Scion Projects/Portfolio/input/styles.scss */
 .links a {
   padding: 6px 8px 6px 8px;
   text-decoration: none;
@@ -28,7 +44,7 @@
   display: block;
 }
 
-/* line 37, ../Scion Projects/Portfolio/input/styles.scss */
+/* line 45, ../Scion Projects/Portfolio/input/styles.scss */
 .logo {
   color: #27bbbb;
   font-weight: bolder;
@@ -37,12 +53,12 @@
   border-bottom: solid #27bbbb 3px;
 }
 
-/* line 49, ../Scion Projects/Portfolio/input/styles.scss */
+/* line 57, ../Scion Projects/Portfolio/input/styles.scss */
 .contact {
   margin: 0;
 }
 
-/* line 54, ../Scion Projects/Portfolio/input/styles.scss */
+/* line 62, ../Scion Projects/Portfolio/input/styles.scss */
 .hero {
   position: relative;
   background-image: url("../img/pexels-photo-1103970 (1).webp");
@@ -52,7 +68,7 @@
   padding-top: 45%;
 }
 
-/* line 64, ../Scion Projects/Portfolio/input/styles.scss */
+/* line 72, ../Scion Projects/Portfolio/input/styles.scss */
 .hero h1 {
   position: absolute;
   top: 50%;
@@ -63,30 +79,30 @@
   font-family: 'Lato', sans-serif;
 }
 
-/* line 83, ../Scion Projects/Portfolio/input/styles.scss */
+/* line 91, ../Scion Projects/Portfolio/input/styles.scss */
 .form-name {
   background-color: #c9c0ee;
   width: 35%;
 }
 
-/* line 90, ../Scion Projects/Portfolio/input/styles.scss */
+/* line 98, ../Scion Projects/Portfolio/input/styles.scss */
 .form-contact {
   background-color: #c9c0ee;
   margin: 10px;
   width: 80%;
 }
 
-/* line 97, ../Scion Projects/Portfolio/input/styles.scss */
+/* line 105, ../Scion Projects/Portfolio/input/styles.scss */
 .row-margin {
   margin: 10px;
 }
 
-/* line 101, ../Scion Projects/Portfolio/input/styles.scss */
+/* line 109, ../Scion Projects/Portfolio/input/styles.scss */
 .contact {
   justify-content: left;
 }
 
-/* line 106, ../Scion Projects/Portfolio/input/styles.scss */
+/* line 114, ../Scion Projects/Portfolio/input/styles.scss */
 .projects {
   margin-top: 20px;
   display: flex;
@@ -94,7 +110,7 @@
   justify-content: center;
 }
 
-/* line 117, ../Scion Projects/Portfolio/input/styles.scss */
+/* line 125, ../Scion Projects/Portfolio/input/styles.scss */
 .cards {
   border: solid 1px black;
   text-align: center;
@@ -103,19 +119,20 @@
   margin: 0 5px 10px 5px;
 }
 
-/* line 124, ../Scion Projects/Portfolio/input/styles.scss */
+/* line 132, ../Scion Projects/Portfolio/input/styles.scss */
 .cards img {
   height: 100%;
   width: 100%;
   object-fit: contain;
 }
 
-/* line 138, ../Scion Projects/Portfolio/input/styles.scss */
+/* line 146, ../Scion Projects/Portfolio/input/styles.scss */
 .page-header {
   margin: 10px 0px 0px 25px;
   text-align: left;
   font-size: 2.5rem;
   font-family: 'Lato', sans-serif;
+  overflow-wrap: break-word;
 }
 
 /*# sourceMappingURL=styles.css.map */

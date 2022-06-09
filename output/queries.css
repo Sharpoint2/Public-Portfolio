@@ -1,2 +1,8 @@
+@media (min-width: 992px) {
+  /* line 12, ../Scion Projects/Portfolio/input/queries.scss */
+  .sidenav {
+    display: block;
+  }
+}
 
 /*# sourceMappingURL=queries.css.map */

@@ -5,8 +5,8 @@
 		"../input/queries.scss"
 	],
 	"sourcesContent": [
-		"// Small devices (landscape phones, 576px and up)\r\n@media (min-width: 576px) {  }\r\n\r\n// Medium devices (tablets, 768px and up)\r\n@media (min-width: 768px) {  }\r\n\r\n// Large devices (desktops, 992px and up)\r\n@media (min-width: 992px) {  }\r\n\r\n// Extra large devices (large desktops, 1200px and up)\r\n@media (min-width: 1200px) {  }"
+		"\r\n\r\n// Small devices (landscape phones, 576px and up)\r\n@media (min-width: 576px) {  }\r\n\r\n// Medium devices (tablets, 768px and up)\r\n@media (min-width: 768px) {  }\r\n\r\n// Large devices (desktops, 992px and up)\r\n@media (min-width: 992px) \r\n{\r\n    .sidenav\r\n    {\r\n        display: block;\r\n    }\r\n}\r\n\r\n// Extra large devices (large desktops, 1200px and up)\r\n@media (min-width: 1200px) {  }"
 	],
 	"names": [],
-	"mappings": ""
+	"mappings": "AASA,MAAM,EAAE,SAAS,EAAE,KAAK;;EAEpB,AAAA,QAAQ,CACR;IACI,OAAO,EAAE,KAAK;GACjB"
 }
