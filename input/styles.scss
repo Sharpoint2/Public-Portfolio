@@ -4,9 +4,12 @@
 @import "queries.scss";
 
 .sidenav {
-    display: none;
-    height: 100%; 
-    width: 160px; 
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%; 
+    height: 80px; 
     position: fixed; 
     z-index: 1; 
     top: 0;
@@ -17,6 +20,10 @@
   
   }
 
+  body
+  {
+    position:relative;
+  }
   .submit
   {
     
@@ -29,34 +36,51 @@
 
   .links
   {     
-      margin-top: 10px;
+     
+     
       text-align: center;
-      border-bottom: solid rgb(39, 187, 187) 1.5px;
+      border-right: solid rgb(39, 187, 187) 1.5px;
+      display:flex;
+      flex-direction: row;
+      justify-content: center;
     a
     {
+        margin-left:15px;
         padding: 6px 8px 6px 8px;
         text-decoration: none;
-        font-size: 16px;
+        font-size: 32px;
         color: #0a0229;
-        display: block;
+       
     }
   }
 
   .logo
   {
-      
+
       color:rgb(39, 187, 187);
+     padding-bottom:20px;
       font-weight: bolder;
-      text-align: center;
+      margin-right:20px;
       font-size: 2rem;
-      border-bottom: solid rgb(39, 187, 187) 3px;
+      border-right: solid rgb(39, 187, 187) 3px;
     
 
+  }
+
+  #contact-link
+  {
+    margin-top:10px;
+  }
+
+  #first-name, #last-name
+  {
+    width: 80%;
   }
 
   .contact
   {
       margin:0;
+      padding-left: 180px;
   }
 
   .hero
@@ -83,10 +107,7 @@
 
   }
 
-  .form
-  {
-
-  }
+ 
 
   .form-name
   {
@@ -148,9 +169,56 @@
     
     margin: 10px 0px 0px 25px;
     text-align: left;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-family: 'Lato', sans-serif;
     overflow-wrap: break-word;
+    padding-left: 180px;
 
     
   }
+
+  // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {  }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) 
+{
+    .sidenav
+    {
+      display:block;
+      height:100%;
+      width:160px;
+    
+    }
+    .links
+    {
+      display:block;
+      text-align: center;
+      border-bottom: solid rgb(39, 187, 187) 3px;
+      border-right:none;
+      margin:10px 0 10px 0;
+      a
+      {
+      font-size:20px;
+      }
+    }
+
+    a
+    {
+      text-decoration: none;
+    }     
+    .logo
+    {
+      text-align: center;
+      margin:0;
+      border-bottom: solid rgb(39, 187, 187) 3px;
+      border-right:none;
+      
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  }
