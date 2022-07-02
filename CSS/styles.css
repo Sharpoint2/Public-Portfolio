@@ -1,11 +1,11 @@
 @media (min-width: 992px) {
-  /* line 12, ../Scion Projects/Portfolio/input/queries.scss */
+  /* line 12, ../Scion Projects/Portfolio/Sass/queries.scss */
   .sidenav {
     display: block;
   }
 }
 
-/* line 6, ../Scion Projects/Portfolio/input/styles.scss */
+/* line 6, ../Scion Projects/Portfolio/Sass/styles.scss */
 .sidenav {
   display: flex;
   width: 100%;
@@ -22,12 +22,12 @@
   font-family: 'Lato', sans-serif;
 }
 
-/* line 23, ../Scion Projects/Portfolio/input/styles.scss */
+/* line 23, ../Scion Projects/Portfolio/Sass/styles.scss */
 body {
   position: relative;
 }
 
-/* line 27, ../Scion Projects/Portfolio/input/styles.scss */
+/* line 27, ../Scion Projects/Portfolio/Sass/styles.scss */
 .submit {
   background-color: #c9c0ee;
   margin: 0 0 20px 30%;
@@ -36,7 +36,7 @@ body {
   font-weight: bold;
 }
 
-/* line 37, ../Scion Projects/Portfolio/input/styles.scss */
+/* line 37, ../Scion Projects/Portfolio/Sass/styles.scss */
 .links {
   text-align: center;
   border-right: solid #27bbbb 1.5px;
@@ -45,7 +45,7 @@ body {
   justify-content: center;
 }
 
-/* line 46, ../Scion Projects/Portfolio/input/styles.scss */
+/* line 46, ../Scion Projects/Portfolio/Sass/styles.scss */
 .links a {
   margin-left: 15px;
   padding: 6px 8px 6px 8px;
@@ -54,7 +54,7 @@ body {
   color: #0a0229;
 }
 
-/* line 57, ../Scion Projects/Portfolio/input/styles.scss */
+/* line 57, ../Scion Projects/Portfolio/Sass/styles.scss */
 .logo {
   color: #27bbbb;
   padding-bottom: 20px;
@@ -64,33 +64,32 @@ body {
   border-right: solid #27bbbb 3px;
 }
 
-/* line 70, ../Scion Projects/Portfolio/input/styles.scss */
+/* line 70, ../Scion Projects/Portfolio/Sass/styles.scss */
 #contact-link {
   margin-top: 10px;
 }
 
-/* line 75, ../Scion Projects/Portfolio/input/styles.scss */
+/* line 75, ../Scion Projects/Portfolio/Sass/styles.scss */
 #first-name, #last-name {
   width: 80%;
 }
 
-/* line 80, ../Scion Projects/Portfolio/input/styles.scss */
+/* line 80, ../Scion Projects/Portfolio/Sass/styles.scss */
 .contact {
   margin: 0;
   padding-left: 180px;
 }
 
-/* line 86, ../Scion Projects/Portfolio/input/styles.scss */
+/* line 86, ../Scion Projects/Portfolio/Sass/styles.scss */
 .hero {
   position: relative;
-  background-image: url("../img/pexels-photo-1103970 (1).webp");
-  background-repeat: repeat-x;
+  background-image: url("../img/pexels-photo-1103970S(1).webp");
   width: 100%;
-  height: auto;
+  height: vh;
   padding-top: 45%;
 }
 
-/* line 96, ../Scion Projects/Portfolio/input/styles.scss */
+/* line 96, ../Scion Projects/Portfolio/Sass/styles.scss */
 .hero h1 {
   position: absolute;
   top: 50%;
@@ -101,30 +100,31 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-/* line 112, ../Scion Projects/Portfolio/input/styles.scss */
+/* line 112, ../Scion Projects/Portfolio/Sass/styles.scss */
 .form-name {
   background-color: #c9c0ee;
   width: 35%;
 }
 
-/* line 119, ../Scion Projects/Portfolio/input/styles.scss */
+/* line 119, ../Scion Projects/Portfolio/Sass/styles.scss */
 .form-contact {
   background-color: #c9c0ee;
   margin: 10px;
   width: 80%;
 }
 
-/* line 126, ../Scion Projects/Portfolio/input/styles.scss */
+/* line 126, ../Scion Projects/Portfolio/Sass/styles.scss */
 .row-margin {
   margin: 10px;
+  max-width: 65%;
 }
 
-/* line 130, ../Scion Projects/Portfolio/input/styles.scss */
+/* line 131, ../Scion Projects/Portfolio/Sass/styles.scss */
 .contact {
   justify-content: left;
 }
 
-/* line 135, ../Scion Projects/Portfolio/input/styles.scss */
+/* line 136, ../Scion Projects/Portfolio/Sass/styles.scss */
 .projects {
   margin-top: 20px;
   display: flex;
@@ -132,7 +132,7 @@ body {
   justify-content: center;
 }
 
-/* line 146, ../Scion Projects/Portfolio/input/styles.scss */
+/* line 147, ../Scion Projects/Portfolio/Sass/styles.scss */
 .cards {
   border: solid 1px black;
   text-align: center;
@@ -141,14 +141,14 @@ body {
   margin: 0 5px 10px 5px;
 }
 
-/* line 153, ../Scion Projects/Portfolio/input/styles.scss */
+/* line 154, ../Scion Projects/Portfolio/Sass/styles.scss */
 .cards img {
   height: 100%;
   width: 100%;
   object-fit: contain;
 }
 
-/* line 167, ../Scion Projects/Portfolio/input/styles.scss */
+/* line 168, ../Scion Projects/Portfolio/Sass/styles.scss */
 .page-header {
   margin: 10px 0px 0px 25px;
   text-align: left;
@@ -158,14 +158,20 @@ body {
   padding-left: 180px;
 }
 
+/* line 177, ../Scion Projects/Portfolio/Sass/styles.scss */
+.page-header h3 {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
 @media (min-width: 992px) {
-  /* line 189, ../Scion Projects/Portfolio/input/styles.scss */
+  /* line 195, ../Scion Projects/Portfolio/Sass/styles.scss */
   .sidenav {
     display: block;
     height: 100%;
     width: 160px;
   }
-  /* line 196, ../Scion Projects/Portfolio/input/styles.scss */
+  /* line 202, ../Scion Projects/Portfolio/Sass/styles.scss */
   .links {
     display: block;
     text-align: center;
@@ -173,15 +179,15 @@ body {
     border-right: none;
     margin: 10px 0 10px 0;
   }
-  /* line 203, ../Scion Projects/Portfolio/input/styles.scss */
+  /* line 209, ../Scion Projects/Portfolio/Sass/styles.scss */
   .links a {
     font-size: 20px;
   }
-  /* line 209, ../Scion Projects/Portfolio/input/styles.scss */
+  /* line 215, ../Scion Projects/Portfolio/Sass/styles.scss */
   a {
     text-decoration: none;
   }
-  /* line 213, ../Scion Projects/Portfolio/input/styles.scss */
+  /* line 219, ../Scion Projects/Portfolio/Sass/styles.scss */
   .logo {
     text-align: center;
     margin: 0;

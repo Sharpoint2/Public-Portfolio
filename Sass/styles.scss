@@ -88,10 +88,10 @@
       
       
     position: relative;
-      background-image: url("../img/pexels-photo-1103970\ \(1\).webp");
-      background-repeat: repeat-x;
+      background-image: url("../img/pexels-photo-1103970S(1).webp");
+     // background-repeat: repeat-x;
       width: 100%;
-      height: auto;
+      height: vh; 
       padding-top:45%;
       h1
       {
@@ -126,6 +126,7 @@
   .row-margin
   {
     margin:10px;
+    max-width: 65%;
   }
   .contact
   {
@@ -173,6 +174,11 @@
     font-family: 'Lato', sans-serif;
     overflow-wrap: break-word;
     padding-left: 180px;
+    h3 
+    {
+      margin-top:10px;
+      font-weight: bold;
+    }
 
     
   }
