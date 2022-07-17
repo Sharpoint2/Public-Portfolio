@@ -5,6 +5,7 @@
 
 .sidenav {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     flex-direction: row;
     justify-content: center;
@@ -29,7 +30,7 @@
     
     background-color: #c9c0ee;
     margin:0 0 20px 30%;
-    width:20%;
+    width:200px;
     height:50px;
     font-weight: bold;
   }
@@ -48,7 +49,7 @@
         margin-left:15px;
         padding: 6px 8px 6px 8px;
         text-decoration: none;
-        font-size: 32px;
+        font-size: 22px;
         color: #0a0229;
        
     }
@@ -56,11 +57,11 @@
 
   .logo
   {
-
+     display:none;
       color:rgb(39, 187, 187);
      padding-bottom:20px;
       font-weight: bolder;
-      margin-right:20px;
+      padding-right:20px;
       font-size: 2rem;
       border-right: solid rgb(39, 187, 187) 3px;
     
@@ -72,15 +73,13 @@
     margin-top:10px;
   }
 
-  #first-name, #last-name
-  {
-    width: 80%;
-  }
+ 
 
   .contact
   {
       margin:0;
       padding-left: 180px;
+      justify-content: center;
   }
 
   .hero
@@ -89,8 +88,9 @@
       
     position: relative;
       background-image: url("../img/pexels-photo-1103970S(1).webp");
-     // background-repeat: repeat-x;
-      width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: vh;
       height: vh; 
       padding-top:45%;
       h1
@@ -113,7 +113,7 @@
   {
     background-color: #c9c0ee;
     
-    width: 35%;
+    width: 55%;
   }
 
   .form-contact
@@ -123,10 +123,22 @@
     width:80%;
   }
 
+ // #first-name, #last-name
+ // {
+  //  width:1000px;
+  //  max-width: 65%;
+ //   min-width: 35%;
+
+//  }
+
   .row-margin
   {
+   width: 1000px;
+    
+  
     margin:10px;
     max-width: 65%;
+    min-width: 35%;
   }
   .contact
   {
@@ -187,7 +199,12 @@
 @media (min-width: 576px) {  }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {  }
+@media (min-width: 768px) {
+  .logo
+  {
+      display: block;
+  }
+  }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) 
@@ -219,7 +236,7 @@
     .logo
     {
       text-align: center;
-      margin:0;
+      margin-top:20px;
       border-bottom: solid rgb(39, 187, 187) 3px;
       border-right:none;
       

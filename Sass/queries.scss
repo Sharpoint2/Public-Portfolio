@@ -4,7 +4,14 @@
 @media (min-width: 576px) {  }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {  }
+@media (min-width: 768px) 
+{
+    .logo
+    {
+        display: flex;
+    }
+}
+
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) 
@@ -12,8 +19,19 @@
     .sidenav
     {
         display: block;
+        
     }
-}
+   // #first-name, #last-name
+    //{
+   //   width: 1000px;
+  //  }
 
+   // .row-margin
+  //  {
+    // width: 1000px;
+  //  }
+  
+
+}
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {  }

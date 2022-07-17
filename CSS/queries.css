@@ -1,5 +1,12 @@
+@media (min-width: 768px) {
+  /* line 9, ../Scion Projects/Portfolio/Sass/queries.scss */
+  .logo {
+    display: flex;
+  }
+}
+
 @media (min-width: 992px) {
-  /* line 12, ../Scion Projects/Portfolio/Sass/queries.scss */
+  /* line 19, ../Scion Projects/Portfolio/Sass/queries.scss */
   .sidenav {
     display: block;
   }
