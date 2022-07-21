@@ -157,7 +157,13 @@ body {
   object-fit: contain;
 }
 
-/* line 180, ../Scion Projects/Portfolio/Sass/styles.scss */
+/* line 175, ../Scion Projects/Portfolio/Sass/styles.scss */
+.media-image {
+  height: 30px;
+  width: 30px;
+}
+
+/* line 181, ../Scion Projects/Portfolio/Sass/styles.scss */
 .page-header {
   margin: 10px 0px 0px 25px;
   text-align: left;
@@ -167,27 +173,27 @@ body {
   padding-left: 180px;
 }
 
-/* line 189, ../Scion Projects/Portfolio/Sass/styles.scss */
+/* line 190, ../Scion Projects/Portfolio/Sass/styles.scss */
 .page-header h3 {
   margin-top: 10px;
   font-weight: bold;
 }
 
 @media (min-width: 768px) {
-  /* line 203, ../Scion Projects/Portfolio/Sass/styles.scss */
+  /* line 204, ../Scion Projects/Portfolio/Sass/styles.scss */
   .logo {
     display: block;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 212, ../Scion Projects/Portfolio/Sass/styles.scss */
+  /* line 213, ../Scion Projects/Portfolio/Sass/styles.scss */
   .sidenav {
     display: block;
     height: 100%;
     width: 160px;
   }
-  /* line 219, ../Scion Projects/Portfolio/Sass/styles.scss */
+  /* line 220, ../Scion Projects/Portfolio/Sass/styles.scss */
   .links {
     display: block;
     text-align: center;
@@ -195,15 +201,15 @@ body {
     border-right: none;
     margin: 10px 0 10px 0;
   }
-  /* line 226, ../Scion Projects/Portfolio/Sass/styles.scss */
+  /* line 227, ../Scion Projects/Portfolio/Sass/styles.scss */
   .links a {
     font-size: 20px;
   }
-  /* line 232, ../Scion Projects/Portfolio/Sass/styles.scss */
+  /* line 233, ../Scion Projects/Portfolio/Sass/styles.scss */
   a {
     text-decoration: none;
   }
-  /* line 236, ../Scion Projects/Portfolio/Sass/styles.scss */
+  /* line 237, ../Scion Projects/Portfolio/Sass/styles.scss */
   .logo {
     text-align: center;
     margin-top: 20px;
