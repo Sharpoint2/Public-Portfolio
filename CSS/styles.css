@@ -107,20 +107,57 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-/* line 112, ../Scion Projects/Portfolio/Sass/styles.scss */
+/* line 111, ../Scion Projects/Portfolio/Sass/styles.scss */
+.ml11 {
+  font-weight: 700;
+  font-size: 3.5em;
+}
+
+/* line 116, ../Scion Projects/Portfolio/Sass/styles.scss */
+.ml11 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+/* line 124, ../Scion Projects/Portfolio/Sass/styles.scss */
+.ml11 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  transform-origin: 0 50%;
+}
+
+/* line 134, ../Scion Projects/Portfolio/Sass/styles.scss */
+.ml11 .line1 {
+  top: 0;
+  left: 0;
+}
+
+/* line 139, ../Scion Projects/Portfolio/Sass/styles.scss */
+.ml11 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+/* line 145, ../Scion Projects/Portfolio/Sass/styles.scss */
 .form-name {
   background-color: #c9c0ee;
   width: 55%;
 }
 
-/* line 119, ../Scion Projects/Portfolio/Sass/styles.scss */
+/* line 152, ../Scion Projects/Portfolio/Sass/styles.scss */
 .form-contact {
   background-color: #c9c0ee;
   margin: 10px;
   width: 80%;
 }
 
-/* line 134, ../Scion Projects/Portfolio/Sass/styles.scss */
+/* line 167, ../Scion Projects/Portfolio/Sass/styles.scss */
 .row-margin {
   width: 1000px;
   margin: 10px;
@@ -128,12 +165,12 @@ body {
   min-width: 35%;
 }
 
-/* line 143, ../Scion Projects/Portfolio/Sass/styles.scss */
+/* line 176, ../Scion Projects/Portfolio/Sass/styles.scss */
 .contact {
   justify-content: left;
 }
 
-/* line 148, ../Scion Projects/Portfolio/Sass/styles.scss */
+/* line 181, ../Scion Projects/Portfolio/Sass/styles.scss */
 .projects {
   margin-top: 20px;
   display: flex;
@@ -141,7 +178,7 @@ body {
   justify-content: center;
 }
 
-/* line 159, ../Scion Projects/Portfolio/Sass/styles.scss */
+/* line 192, ../Scion Projects/Portfolio/Sass/styles.scss */
 .cards {
   border: solid 1px black;
   text-align: center;
@@ -150,20 +187,20 @@ body {
   margin: 0 5px 10px 5px;
 }
 
-/* line 166, ../Scion Projects/Portfolio/Sass/styles.scss */
+/* line 199, ../Scion Projects/Portfolio/Sass/styles.scss */
 .cards img {
   height: 100%;
   width: 100%;
   object-fit: contain;
 }
 
-/* line 175, ../Scion Projects/Portfolio/Sass/styles.scss */
+/* line 208, ../Scion Projects/Portfolio/Sass/styles.scss */
 .media-image {
   height: 30px;
   width: 30px;
 }
 
-/* line 181, ../Scion Projects/Portfolio/Sass/styles.scss */
+/* line 214, ../Scion Projects/Portfolio/Sass/styles.scss */
 .page-header {
   margin: 10px 0px 0px 25px;
   text-align: left;
@@ -173,27 +210,27 @@ body {
   padding-left: 180px;
 }
 
-/* line 190, ../Scion Projects/Portfolio/Sass/styles.scss */
+/* line 223, ../Scion Projects/Portfolio/Sass/styles.scss */
 .page-header h3 {
   margin-top: 10px;
   font-weight: bold;
 }
 
 @media (min-width: 768px) {
-  /* line 204, ../Scion Projects/Portfolio/Sass/styles.scss */
+  /* line 237, ../Scion Projects/Portfolio/Sass/styles.scss */
   .logo {
     display: block;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 213, ../Scion Projects/Portfolio/Sass/styles.scss */
+  /* line 246, ../Scion Projects/Portfolio/Sass/styles.scss */
   .sidenav {
     display: block;
     height: 100%;
     width: 160px;
   }
-  /* line 220, ../Scion Projects/Portfolio/Sass/styles.scss */
+  /* line 253, ../Scion Projects/Portfolio/Sass/styles.scss */
   .links {
     display: block;
     text-align: center;
@@ -201,15 +238,15 @@ body {
     border-right: none;
     margin: 10px 0 10px 0;
   }
-  /* line 227, ../Scion Projects/Portfolio/Sass/styles.scss */
+  /* line 260, ../Scion Projects/Portfolio/Sass/styles.scss */
   .links a {
     font-size: 20px;
   }
-  /* line 233, ../Scion Projects/Portfolio/Sass/styles.scss */
+  /* line 266, ../Scion Projects/Portfolio/Sass/styles.scss */
   a {
     text-decoration: none;
   }
-  /* line 237, ../Scion Projects/Portfolio/Sass/styles.scss */
+  /* line 270, ../Scion Projects/Portfolio/Sass/styles.scss */
   .logo {
     text-align: center;
     margin-top: 20px;
