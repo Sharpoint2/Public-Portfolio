@@ -9,11 +9,28 @@ validation = () =>
     let inputs = document.querySelectorAll('input');
     inputs.forEach('input')
     {
-        if (input.value === '3')
+        if (input.value === ' ')
         {
-            
-        }
+            alert('Please Make Sure All Fields are Filled');
+            return;
+        };
     };
+
+    let emailRegex = /^\S+@\S+\.\S+$/;
+    let nameRegex =/^[a-zA-Z\s]+$/;
+
+
+    if (emailRegex.test(first_name) === false || emailRegex.test(last_name) === false) 
+    {
+      alert('Please enter a valid name');
+      return;
+    }
+
+    if (emailRegex.test(email) === false)
+    {
+      alert('Please enter a valid email address');
+      return;
+    }
 }
 
 textSlide = () =>
