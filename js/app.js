@@ -3,6 +3,11 @@ let last_name = document.querySelector('#last-name');
 let email = document.querySelector('#email');
 let subject = document.querySelector('#subject');
 let message = document.querySelector('#message');
+let reveal = document.getElementsByClassName('reveal');
+let submit = document.getElementsByClassName('submit');
+
+reveal.addEventListener('click',validation());
+submit.addEventListener('click',textSlide());
 
 validation = () =>
 {
@@ -35,7 +40,14 @@ validation = () =>
 
 textSlide = () =>
 {
-    
+  if (visible === false)
+  {
+    $('.sidenav').slideDown();
+  }
+  else
+  {
+    $('.sidenav').slideUp();
+  }
 }
 
 // Wrap every letter in a span
