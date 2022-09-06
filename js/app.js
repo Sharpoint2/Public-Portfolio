@@ -3,13 +3,11 @@ let last_name = document.querySelector('#last-name');
 let email = document.querySelector('#email');
 let subject = document.querySelector('#subject');
 let message = document.querySelector('#message');
-let reveal = document.getElementsByClassName('reveal');
-let submit = document.getElementsByClassName('submit');
+let reveal = document.querySelector('.reveal')
+let submit = document.querySelector('.submit');
+let visible = false;
 
-reveal.addEventListener('click',validation());
-submit.addEventListener('click',textSlide());
-
-validation = () =>
+let validation = () =>
 {
     let inputs = document.querySelectorAll('input');
     inputs.forEach('input')
@@ -38,7 +36,7 @@ validation = () =>
     }
 }
 
-textSlide = () =>
+let textSlide = () =>
 {
   if (visible === false)
   {
@@ -49,6 +47,32 @@ textSlide = () =>
     $('.sidenav').slideUp();
   }
 }
+
+submit.addEventListener('click', () =>
+{
+    let inputs = document.querySelectorAll('input');
+    inputs.forEach('input')
+    {
+        if (input.value === ' ')
+        {
+            alert('Please Make Sure All Fields are Filled');
+            return;
+        };
+    };
+
+    let emailRegex = /^\S+@\S+\.\S+$/;
+    let nameRegex =/^[a-zA-Z\s]+$/;
+
+
+    if (emailRegex.test(first_name) === false || emailRegex.test(last_name) === false) 
+    {
+      alert('Please enter a valid name');
+      return;
+    }
+  });
+
+
+reveal.addEventListener('click',textSlide());
 
 // Wrap every letter in a span
 var textWrapper = document.querySelector('.ml11 .letters');
