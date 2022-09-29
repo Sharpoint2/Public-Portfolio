@@ -25,6 +25,17 @@
   {
     position:relative;
   }
+  
+  .reveal
+  {
+    background-color: #c9c0ee;
+    margin:0 0 20px 30%;
+    width:200px;
+    height:50px;
+    font-weight: bold;
+  }
+  
+  
   .submit
   {
     
@@ -249,6 +260,11 @@
       height:100%;
       width:160px;
     
+    }
+
+    .reveal
+    {
+      display:none;
     }
     .links
     {
